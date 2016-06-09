@@ -4,7 +4,7 @@ Website code for Junior Online Products Front End Developer Test assignment
 #Notes
 I have used SASS(SCSS) in this project and complied using Prepros. Also, I tried to minimize the HTTP requests for faster load time along with compressed progressive image. Forms are woking properly and I'll recieve messages whenever anyone fills the form. Form was made with https://formspree.io/ framework.
 
-This repo contains the original PSD & PDF files which were used as mockup references. I have tried by best to follow the exact dimensions while designing along with the fonts & colors.
+This repo contains the original PSD & PDF files which were used as mockup references. I have tried by best to follow the exact dimensions while designing along with the fonts & colors. I have tried hard to keep the design intact for most of the devices, it may be flawed in few places which can be easily dealt with if spent more time on that.
 
 
 ## About Me
