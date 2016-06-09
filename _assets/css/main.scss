@@ -26,11 +26,11 @@ ul{
 }
 
 .red{
-    color: $red;
+    color: $red !important;
 }
 
 .blue{
-    color: $blue;
+    color: $blue !important;
 }
 
 .bold {
@@ -94,7 +94,7 @@ ul{
 .bg-img {
     height: 910px;
     //max-height: 65vh;
-    background: url("../../_assets/img/bg.png");
+    background: url("../../_assets/img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -114,15 +114,15 @@ ul{
     opacity: 0.85;
     width: 700px;
 
-    h2{
-        font-size: 36px !important;
-    }
-    h4{
-        font-size: 26px !important;
-    }
-    h5{
-        font-size: 24px !important;
-    }
+    // h2{
+    //     font-size: 36px !important;
+    // }
+    // h4{
+    //     font-size: 26px !important;
+    // }
+    // h5{
+    //     font-size: 24px !important;
+    // }
 
 }
 
@@ -161,7 +161,7 @@ ul{
     color: white;
 
     i {
-        padding: 21px 10px;
+        padding: 21px 20px;
         font-size: 16px;
     }
 
@@ -199,6 +199,7 @@ ul{
 
     p{
         line-height: 1.5em;
+        text-align: justify;
     }
 }
 
@@ -215,5 +216,71 @@ ul{
 @media(max-width: 786px) {
     .hidden-on-mobile {
         display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .white-box {
+        width: 85%;
+        max-height: 80%;
+        padding: 40px 5px 5px 5px;
+
+        .red-bg{
+            padding: 60px 0;
+        }
+
+        .big{
+            font-size: 56px;
+        }
+
+        h2{
+            font-size: 48px;
+        }
+        h4,h5{
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 24px;
+        }
+
+        .form-items{
+            div{
+                font-size: 30px;
+            }
+        }
+
+
+        input[type="submit"] {
+            width: 25%;
+            padding: 20px;
+
+        }
+    }
+
+    .big{
+        font-size: 56px;
+    }
+
+    h2{
+        font-size: 48px;
+    }
+    h4,h5{
+        font-size: 30px;
+    }
+
+    p, li{
+        font-size: 24px;
+    }
+
+    .container{
+        width: 90% !important;
+        padding: 0px;
+    }
+    .content{
+        padding: 20px 10px;
+    }
+    .bg-img {
+        height: 75vh;
     }
 }
